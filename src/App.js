@@ -4,6 +4,7 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './components/home';
+import Pricing from './components/pricing';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
      < BrowserRouter>
         <Routes>
           <Route path="/" element={<h1>< Home /></h1>} />
+          <Route path="/pricing" element={ < Pricing />}/>
         </Routes>
      </BrowserRouter>
     </div>
